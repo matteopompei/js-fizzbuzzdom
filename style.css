@@ -30,3 +30,15 @@ h1 {
   background-color: #5c5c5c;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+.fizzbuzz {
+  background-color: #971717;
+}
+
+.fizz {
+  background-color: #5c26db;
+}
+
+.buzz {
+  background-color: #10952d;
+}
