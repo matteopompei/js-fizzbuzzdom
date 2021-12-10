@@ -1,4 +1,8 @@
+let container = document.getElementById("container"); // Definisco la variabile container associandola al corrispettivo elemento HTML
+
 for (let i = 1; i <= 100; i++) { // Genera numeri da 1 a 100
+
+  container.innerHTML += '<div class="box">' + i + '</div>';
 
   if((i%3 == 0) && (i%5 == 0)){ // Stampa FizzBuzz se multiplo di 3 e 5
     console.log ("FizzBuzz");
